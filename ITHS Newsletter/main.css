@@ -1,0 +1,41 @@
+body{
+    background-color: white;
+}
+
+.announcement{
+    background-color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.announcement h1{
+    font-size: 20px;
+}
+
+.links{
+    background-color: #B80C14;
+    top: 3vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.links a{
+    color: white;
+    text-decoration:  none;
+    font-family: "Bree Serif", serif;
+    padding: 10px;
+}
+
+#logo {
+    margin-top: -10px;
+    margin-left: 10vh;
+    height: 40px;
+    width: 50px;
+}
